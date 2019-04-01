@@ -1,6 +1,6 @@
 # Hashketball Review
 
-Lecture Notes: https://docs.google.com/document/d/1DYf0ssouFDqG_Pj0joeNOWVM4d4rKfBjPy4-er4vISs/edit?usp=sharing
+Lecture Notes: https://drive.google.com/file/d/1BvpvpFuqYxZzOdTK3q86yLXFpeh_QdZR/view?usp=sharing
 
 ## Objectives
 

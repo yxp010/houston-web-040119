@@ -1,5 +1,7 @@
 # Hashes and the Internet
 
+Lecture notes: https://drive.google.com/file/d/1MdXknAwNRgaSF1G4MnGUNbEFYnRYTRKi/view?usp=sharing
+
 ### Define
 
 * GET requests

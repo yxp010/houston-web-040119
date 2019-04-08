@@ -131,8 +131,9 @@ WHERE genres.Name = 'Pop';
 SELECT artists.name,
 COUNT(tracks.TrackId) as num_rock
 FROM tracks
-JOIN albums ON tracks.GenreId=5
+JOIN albums ON albums.AlbumId = tracks.AlbumId
 JOIN artists ON artists.ArtistId=albums.ArtistId
+WHERE tracks.GenreId=1
 GROUP BY artists.ArtistId
 HAVING num_rock > 30
 ORDER BY num_rock DESC;

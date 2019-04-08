@@ -65,15 +65,15 @@ INSERT INTO fans_new (name, artist_id) VALUES ("Shawn",169)
 6. How would you update your name in the fans table to be your new name? Use Ruby file.
 
    ```sql
-UPDATE fans_new SET name = "NICK" WHERE id = 10
+    UPDATE fans_new SET name = "NICK" WHERE id = 10
 
 
-UPDATE fans_new
-SET name = "NICK"
-WHERE name = "VIDHI"
+    UPDATE fans_new
+    SET name = "NICK"
+    WHERE name = "VIDHI"
 
 
-db.execute('UPDATE fans_new SET name = "NICK" WHERE id = 10')
+    db.execute('UPDATE fans_new SET name = "NICK" WHERE id = 10')
 
    ```
 
@@ -81,6 +81,9 @@ db.execute('UPDATE fans_new SET name = "NICK" WHERE id = 10')
 
 ```sql
 SELECT * FROM fans WHERE not artist_id = 169
+```
+
+```sql
 SELECT * FROM fans WHERE artist_id != 169
 ```
 

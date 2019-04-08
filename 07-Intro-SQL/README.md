@@ -5,6 +5,8 @@
 3. Choose the `chinook.db` file from this repo. This database is open source and maintained by Microsoft (SQL is no fun if you don't have any data)
 4. Click the tab that says 'Execute SQL'. Type SQL queries in the box above. Press the play button. See the results of that query in the box below
 
+Lecture notes: https://drive.google.com/file/d/1UDgd1t-pY9vkRJaOufosMdZSs8SFOfFX/view?usp=sharing
+
 ## What is SQL?
 Structred Query Language
 Programming language that talks to database

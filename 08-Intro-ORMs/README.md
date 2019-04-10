@@ -27,12 +27,16 @@ WHERE books_authors.author_id = 2
  ```sql
  INSERT INTO authors (first_name, last_name) VALUES ("TOM","JERRY")
 
-  INSERT INTO books_authors (book_id, author_id) VALUES (2,3)
+ INSERT INTO books (title, year) VALUES ("Ruby stars",2009)
+
+ INSERT INTO books_authors (book_id, author_id) VALUES (2,3)
 ```
 
 2. Find all authors, Find all books
 ```sql
 SELECT * FROM authors
+
+SELECT * FROM books
 ```
 
 3. Update a certain author given their id
@@ -41,9 +45,11 @@ UPDATE authors SET first_name="SAM" WHERE id = 2
 ```
 
 4. Update a certain book given their id
+```sql
+UPDATE books SET year=2017 WHERE id = 2
+```
 
-
-5. Delete a certain book
+5. Delete a certain author
 ```sql
 DELETE FROM authors WHERE id = 3
 ```
@@ -54,7 +60,7 @@ DELETE FROM authors WHERE id = 3
 SELECT * FROM authors WHERE id= 1
 ```
 
-
 7. Find a certain book given their id
-
-
+```sql
+SELECT * FROM books WHERE id= 1
+```

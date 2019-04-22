@@ -6,3 +6,6 @@
 * Create a method which returns the heros coolest ability
 * Create a method which returns the heros ability names ordered alphabetically
 * Create method add_ability, which accepts an ability and adds it to the array
+
+
+# NOTE : rspec --init to get the spec folder
